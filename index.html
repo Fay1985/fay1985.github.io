@@ -1,11 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cutting-Edge Web Page</title>
+
+  <style>
+    /* CSS for the cutting-edge design */
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: linear-gradient(135deg, #FF6F61, #D4A5A5);
+      color: white;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+
+    .content {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #FF6F61;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 50px;
+      text-decoration: none;
+      text-align: center;
+      transition: all 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #D4A5A5;
+      transform: scale(1.05);
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .media {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .media img {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .media iframe {
+      width: 100%;
+      max-width: 800px;
+      height: 400px;
+      border-radius: 8px;
+    }
+
+    /* Responsive design */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2em;
+      }
+
+      .content {
+        padding: 10px;
+      }
+    }
+  </style>
+
 </head>
 <body>
-    <h1>Welcome to my website</h1>
+
+  <header>
+    <h1>Welcome to My Cutting-Edge Web Page</h1>
+  </header>
+
+  <div class="content">
+    <h2>Interactive Button</h2>
+    <p>Click the button below to see the magic!</p>
+    <a href="#" class="button" id="magicButton">Click Me!</a>
+
+    <section class="media">
+      <h3>Check Out This Awesome Image</h3>
+      <img src="https://via.placeholder.com/600x300" alt="Placeholder Image">
+    </section>
+
+    <section class="media">
+      <h3>Watch This Cool Video</h3>
+      <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section>
+      <p>If you're interested in more content, you can <a href="https://www.youtube.com" target="_blank">visit YouTube</a> or check out some of my other projects.</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Cutting-Edge Web Page. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    // JS to create interactive behavior
+    document.getElementById('magicButton').addEventListener('click', function() {
+      alert("You've clicked the cutting-edge button!");
+    });
+  </script>
+
 </body>
 </html>
